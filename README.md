@@ -2,7 +2,7 @@
 
 Nextree is a startup template for entrepreneurs, freelancers and landing pages with 17 color schemes. Built with [next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
-![nextree](https://user-images.githubusercontent.com/13857079/202281889-493b372e-2593-4de1-aeac-67bb6a63f8dd.jpg)
+![nextree](https://user-images.githubusercontent.com/13857079/202289792-5a0fdcde-7e97-41a9-b0be-1cc720c3e9c8.jpg)
 
 ## Live Demo
 
