@@ -38,17 +38,14 @@ export const info = {
 
 export const buttons = [
     {       
-      id: 1,
       name: "Web", 
       url: "https://alfonsopuig.es" 
     },
     {      
-      id: 2, 
       name: "Instagram", 
       url: "https://instagram.com/alfonso_vlc" 
     },
     {       
-      id: 3,
       name: "Twitter", 
       url: "https://twitter.com/alfonso_puig" 
     }

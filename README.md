@@ -1,28 +1,84 @@
-# Linktree template made with NextJS and Tailwind
+# Nextree - Starter Template
+
+Nextree is a startup template for entrepreneurs, freelancers and landing pages with 17 color schemes. Built with [https://nextjs.org/]Next.js and [https://tailwindcss.com/]TailwindCSS.
+
+screenshot
+
+## Live Demo
+
+-
 
 #### Table of Contents
 
-- [Launch a development server](#launch-a-development-server)
+- [Deploy on Vercel](#deploy-on-vercel)
+- [Getting Started](#getting-started)
+- [Modifications]
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Launch a development server
+## Deploy on Vercel
 
-First, run the development server:
+Click the below link to deploy this template on Vercel
+
+Button link
+
+### Getting Started
+
+You can clone the project directly from this repo to your local system.
+
+#### 1. Clone the repo
+
+```bash
+https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
+```
+
+### 2. Navigate to the directory
+
+```bash
+cd nextjs-tailwind-linktree
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
+### Modifications
+
+This template includes 17 color schemes, all information can be changed in the file data.js in /src directory.
+
+Change the layout value to one of the available styles:
+
+```bash
+layout: "tree",  // Change this
+```
+
+Change your personal information below.
+
+To add a new button, copy and paste the following line into the data.js file:
+
+```bash
+{       
+    name: "Twitter", 
+    url: "https://twitter.com/alfonso_puig" 
+}
+```
+
+
+
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
@@ -32,9 +88,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
