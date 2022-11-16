@@ -1,26 +1,199 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  min-height: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --color-bg-base: #ffffff;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
 }
 
-* {
-  box-sizing: border-box;
+.theme-amber {
+  --color-bg-base: #ffce56;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.theme-sweet {
+  --color-bg-base: #ed766e;
+  --color-text-base: #150a99;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #150a99;
+  --color-button-border-base: #150a99;
+  --color-button-border-base-hover: #150a99;
+}
+
+.theme-chestnut {
+  --color-bg-base: #fefafb;
+  --color-text-base: #ae5c55;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #ae5c55;
+  --color-button-border-base: #ae5c55;
+  --color-button-border-base-hover: #ae5c55;
+}
+
+.theme-depths {
+  --color-bg-base: #4B6CB7;
+  --color-gradient-from: #4B6CB7;
+  --color-gradient-to: #182848;
+  --color-text-base: #ffffff;
+  --color-text-inverted: #000000;
+  --color-button-base: #4b6cb7;
+  --color-button-base-hover: #ffffff;
+  --color-button-border-base: #ffffff;
+  --color-button-border-base-hover: #4b6cb7;
+}
+
+.theme-dieter {
+  --color-bg-base: #f1f1f1;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
+}
+
+.theme-mango {
+  --color-bg-base: #20372b;
+  --color-text-base: #f17a2e;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #f17a2e;
+  --color-button-border-base: #f17a2e;
+  --color-button-border-base-hover: #f17a2e;
+}
+
+.theme-eggplant {
+  --color-bg-base: #e5daf5;
+  --color-text-base: #544b5b;
+  --color-text-inverted: #000000;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #544b5b;
+  --color-button-border-base: #544b5b;
+  --color-button-border-base-hover: #ffffff;
+}
+
+.theme-jungle {
+  --color-bg-base: #e0d673;
+  --color-text-base: #005319;
+  --color-text-inverted: #000000;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #005319;
+  --color-button-border-base: #005319;
+  --color-button-border-base-hover: #005319;
+}
+
+.theme-lemmings {
+  --color-bg-base: #c08fff;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #252525;
+  --color-button-border-base: #252525;
+  --color-button-border-base-hover: #252525;
+}
+
+.theme-midnight {
+  --color-bg-base: #e0e5c2;
+  --color-text-base: #006885;
+  --color-text-inverted: #000000;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #006885;
+  --color-button-border-base: #006885;
+  --color-button-border-base-hover: #006885;
+}
+
+.theme-nightshift {
+  --color-bg-base: #4B6CB7;
+  --color-gradient-from: #aa076b;
+  --color-gradient-to: #61045f;
+  --color-text-base: #000000;
+  --color-text-inverted: #000000;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #ffffff;
+  --color-button-border-base: #61045f;
+  --color-button-border-base-hover: #61045f;
+}
+
+.theme-royal {
+  --color-bg-base: #161878;
+  --color-text-base: #d68092;
+  --color-text-inverted: #000000;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #d68092;
+  --color-button-border-base: #d68092;
+  --color-button-border-base-hover: #d68092;
+}
+
+.theme-scarlet {
+  --color-bg-base: #100034;
+  --color-text-base: #fc0947;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #fc0947;
+  --color-button-border-base: #fc0947;
+  --color-button-border-base-hover: #fc0947;
+}
+
+.theme-topself {
+  --color-bg-base: #4B6CB7;
+  --color-gradient-from: #fff5cb;
+  --color-gradient-to: #33a7b5;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
+}
+
+.theme-lunar {
+  --color-bg-base: #4B6CB7;
+  --color-gradient-from: #ff33ff;
+  --color-gradient-to: #ffff33;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
+}
+
+.theme-candy {
+  --color-bg-base: #4B6CB7;
+  --color-gradient-from: #ffff33;
+  --color-gradient-to: #33ffff;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
+}
+
+.theme-tree {
+  --color-bg-base: #4B6CB7;
+  --color-gradient-from: #33ffff;
+  --color-gradient-to: #ff33ff;
+  --color-text-base: #000000;
+  --color-text-inverted: #ffffff;
+  --color-button-base: #ffffff;
+  --color-button-base-hover: #000000;
+  --color-button-border-base: #000000;
+  --color-button-border-base-hover: #000000;
 }
