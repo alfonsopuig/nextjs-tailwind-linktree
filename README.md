@@ -1,18 +1,18 @@
 # Nextree - Starter Template
 
-Nextree is a startup template for entrepreneurs, freelancers and landing pages with 17 color schemes. Built with [https://nextjs.org/]Next.js and [https://tailwindcss.com/]TailwindCSS.
+Nextree is a startup template for entrepreneurs, freelancers and landing pages with 17 color schemes. Built with [https://nextjs.org/](Next.js) and [https://tailwindcss.com/](TailwindCSS).
 
 screenshot
 
 ## Live Demo
 
--
+live demo
 
 #### Table of Contents
 
 - [Deploy on Vercel](#deploy-on-vercel)
 - [Getting Started](#getting-started)
-- [Modifications]
+- [Modifications](#modifications)
 
 
 ## Deploy on Vercel
@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 This template includes 17 color schemes, all information can be changed in the file data.js in /src directory.
 
-Change the layout value to one of the available styles:
+Open data.js on your code editor and change the layout value to one of the available styles:
 
 ```bash
 layout: "tree",  // Change this
@@ -64,7 +64,7 @@ layout: "tree",  // Change this
 
 Change your personal information below.
 
-To add a new button, copy and paste the following line into the data.js file:
+To add a new button, copy and paste the following line into the data.js file, buttons section.:
 
 ```bash
 {       
@@ -72,12 +72,6 @@ To add a new button, copy and paste the following line into the data.js file:
     url: "https://twitter.com/alfonso_puig" 
 }
 ```
-
-
-
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
 
 
 ## Learn More
