@@ -6,9 +6,9 @@ Nextree is a startup template for entrepreneurs, freelancers and landing pages w
 
 ## Live Demo
 
-live demo
+[https://nextjs-tailwind-linktree.vercel.app](https://nextjs-tailwind-linktree.vercel.app)
 
-#### Table of Contents
+## Table of Contents
 
 - [Deploy on Vercel](#deploy-on-vercel)
 - [Getting Started](#getting-started)
@@ -19,7 +19,7 @@ live demo
 
 Click the below link to deploy this template on Vercel
 
-Button link
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Falfonsopuig%2Fnextjs-tailwind-linktree)
 
 ## Getting Started
 
@@ -31,19 +31,19 @@ You can clone the project directly from this repo to your local system.
 https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
 ```
 
-### 2. Navigate to the directory
+#### 2. Navigate to the directory
 
 ```bash
 cd nextjs-tailwind-linktree
 ```
 
-### 3. Install dependencies
+#### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start development Server
+#### 4. Start development Server
 
 ```bash
 npm run dev
@@ -52,7 +52,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-### Modifications
+## Modifications
 
 This template includes 17 color schemes, all information can be changed in the file data.js in /src directory.
 
