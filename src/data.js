@@ -41,12 +41,12 @@ export const buttons = [
       name: "Web", 
       url: "https://alfonsopuig.es" 
     },
-    {      
-      name: "Instagram", 
-      url: "https://instagram.com/alfonso_vlc" 
-    },
     {       
       name: "Twitter", 
       url: "https://twitter.com/alfonso_puig" 
-    }
+    },
+    {      
+      name: "LinkedIn", 
+      url: "https://www.linkedin.com/in/alfonsopuig" 
+    },
 ];
