@@ -74,7 +74,7 @@ To add a new button, copy and paste the following line into the data.js file, bu
 ```
 
 ## Author
-Alfonso Puig (http://alfonsopuig.es)
+[Alfonso Puig](http://alfonsopuig.es)
 
 
 ## Learn More
