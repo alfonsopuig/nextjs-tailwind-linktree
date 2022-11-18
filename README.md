@@ -28,7 +28,7 @@ You can clone the project directly from this repo to your local system.
 #### 1. Clone the repo
 
 ```bash
-https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
+git clone https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
 ```
 
 #### 2. Navigate to the directory
