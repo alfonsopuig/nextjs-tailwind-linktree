@@ -1,6 +1,6 @@
 # Nextree - Starter Template
 
-Nextree is a startup template for entrepreneurs, freelancers and landing pages with 17 color schemes. Built with [next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
+Nextree is a startup template for entrepreneurs, freelancers and landing pages with 17 color schemes. Built with [Nextjs](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
 ![nextree](https://user-images.githubusercontent.com/13857079/202289792-5a0fdcde-7e97-41a9-b0be-1cc720c3e9c8.jpg)
 
@@ -28,7 +28,7 @@ You can clone the project directly from this repo to your local system.
 #### 1. Clone the repo
 
 ```bash
-https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
+git clone https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
 ```
 
 #### 2. Navigate to the directory
@@ -72,6 +72,9 @@ To add a new button, copy and paste the following line into the data.js file, bu
     url: "https://twitter.com/alfonso_puig" 
 }
 ```
+
+## Author
+[Alfonso Puig](http://alfonsopuig.es)
 
 
 ## Learn More
