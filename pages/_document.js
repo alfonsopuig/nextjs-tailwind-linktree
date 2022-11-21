@@ -10,7 +10,7 @@ class CustomDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head />
         <body className={`theme-${info.layout} bg-skin-base bg-linearGradient`}>
           <Main />
